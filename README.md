@@ -1,4 +1,3 @@
-# File_Integrity_Checker
 # 🛡️ Linux File Integrity Monitoring Daemon
 
 A Linux-based File Integrity Monitoring (FIM) tool built in Python that detects unauthorized file modifications, metadata tampering, file replacement attacks, and structural changes in real time. The monitor runs as a background systemd user service and provides instant desktop alerts when integrity violations are detected.
