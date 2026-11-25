@@ -4,7 +4,7 @@ A Linux-based File Integrity Monitoring (FIM) tool built in Python that detects 
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project implements a lightweight integrity monitoring daemon that:
 
@@ -18,7 +18,7 @@ The tool is inspired by the fundamental concepts used in professional integrity 
 
 ---
 
-## 🔐 Security Features
+## Security Features
 
 The monitor validates:
 
@@ -36,9 +36,9 @@ If an attacker deletes a file and recreates it with identical content, the hash 
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
-### 1️⃣ Initialization Mode
+### Initialization Mode
 
 Creates a trusted baseline:
 
@@ -53,7 +53,7 @@ This generates:
 
 ---
 
-### 2️⃣ Monitoring Mode
+### Monitoring Mode
 
 When run without arguments, the program:
 
@@ -76,7 +76,7 @@ The monitor is deployed as a **systemd user service**, allowing it to:
 
 ---
 
-## 🖥️ System Integration
+## System Integration
 
 This project integrates with:
 
@@ -95,7 +95,7 @@ systemctl --user status integrity-monitor.service
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 file-integrity-monitor/
@@ -115,7 +115,7 @@ file-integrity-monitor/
 
 ---
 
-## 🧠 Design Considerations
+## Design Considerations
 
 - Uses cryptographic hashing (SHA-256) for content validation
 - Separates initialization and monitoring modes
@@ -126,7 +126,7 @@ file-integrity-monitor/
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Event-driven monitoring using inotify
 - Configurable target directories
@@ -137,7 +137,7 @@ file-integrity-monitor/
 
 ---
 
-## 📈 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates practical understanding of:
 
@@ -151,7 +151,7 @@ This project demonstrates practical understanding of:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Adhyan Raghav  
 Cybersecurity Enthusiast  
